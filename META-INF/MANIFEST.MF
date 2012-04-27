@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hide Status Bar
+Bundle-SymbolicName: net.gleamynode.eclipse.hidestatusbar;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Trustin Lee
+Require-Bundle: org.eclipse.ui;bundle-version="3.6.0",
+ org.eclipse.core.runtime;bundle-version="3.6.0"
+Bundle-Activator: net.gleamynode.eclipse.hidestatusbar.HideStatusBarActivator
+Bundle-ActivationPolicy: lazy
